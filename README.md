@@ -1,71 +1,29 @@
-# Ruijue Luo portfolio
+# Ruijue Luo — Academic Portfolio (GitHub Pages)
 
-A responsive, accessible, dependency-free personal academic website. Four HTML pages, CSS, JavaScript, and a small SVG favicon. No build step, backend, paid service, or external CDN is needed.
+A single-page academic portfolio for `Jade0x13157A6.github.io`.
 
-## Publish using GitHub Pages (personal homepage)
+## Deploy
 
-This site was prepared for GitHub username **`Jade0x13157A6`**.
+1. Open the public repository `Jade0x13157A6/Jade0x13157A6.github.io`.
+2. Upload **index.html** to the repository's top level (replace the old `index.html`).
+3. Enable **Settings → Pages → Deploy from a branch → main / (root)** if not already enabled.
+4. Visit `https://jade0x13157a6.github.io/` after publication.
 
-1. While signed in to GitHub, create a **public** repository named **`Jade0x13157A6.github.io`** (repository name must exactly match your username followed by `.github.io`).
-2. Upload **the *contents* of this folder**, not the folder itself, to the repository's `main` branch. `index.html` needs to be at the root.
-3. Go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
-4. Once published, the URL is **https://jade0x13157a6.github.io/**. GitHub Pages deployments can take a few minutes to propagate.
+The design CSS and JavaScript are **embedded inside `index.html`**. No external stylesheet or JS file needs to be uploaded. Google Fonts are an optional enhancement; safe font fallbacks are present.
 
-### Git command alternative
+## Add a portrait
 
-If you have created the repository on GitHub:
+1. Choose a portrait photo, preferably portrait-oriented (JPG).
+2. Name the file **`profile.jpg`** (exact lowercase name, `.jpg` suffix).
+3. Upload it next to `index.html` at the repository root.
+4. The hero portrait automatically switches from the monogram placeholder to your photo. There is no need to modify HTML.
 
-```bash
-cd ruijue-academic-website
-git init
-git branch -M main
-git add .
-git commit -m "Launch academic portfolio"
-git remote add origin https://github.com/Jade0x13157A6/Jade0x13157A6.github.io.git
-git push -u origin main
-```
+**Privacy note:** anything uploaded to this public GitHub repository is publicly accessible. Avoid exposing private data in the photo metadata.
 
-GitHub may request browser-based login/token authentication. Never paste credentials into the site.
+## Update content
 
-## Preview locally
+The HTML file contains all site content. Project detail panels, filters, and mobile navigation are implemented with inline JavaScript.
 
-Open `index.html` in a browser, or start a lightweight local server:
+## Scope / accuracy
 
-```bash
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Customize before/after publishing
-
-- **Your bio:** edit `index.html`.
-- **Project details:** edit `projects/cfi.html`, `projects/vdot.html`, `projects/specification.html`.
-- **Appearance:** edit `assets/style.css`.
-- **Add a portrait:** place your own authorized image in `assets/` and add an `<img>` in the hero area.
-- **CV:** put your finalized PDF in a `cv/` directory and add a link to it. No CV has been included because none was provided.
-- **Contact:** a GitHub link is used instead of publishing an unconfirmed personal email address.
-
-### Important note about the CFI project
-
-The full Sargantana mentorship integration should not be conflated with the *public standalone CFI FSM coding challenge* repository. The website intentionally makes this distinction.
-
-## Project structure
-
-```text
-index.html
-projects/
-  cfi.html
-  vdot.html
-  specification.html
-assets/
-  style.css
-  main.js
-  favicon.svg
-.nojekyll
-README.md
-```
-
-## Privacy
-
-This is intended to be a **public website**. Review all text before publishing. No analytics, tracking scripts, personal email address, or private files are included.
+The RISC-V mentorship implementation and the public security-oriented RTL coding exercises are **distinct projects**. The XiangShan performance metrics are scoped to the public repository's documented benchmarks and mapped module.
