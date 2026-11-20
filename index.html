@@ -27,7 +27,16 @@
     @media(max-width:780px){.container{padding:0 22px}.head-inner{height:76px}.head-nav{display:none;position:absolute;top:75px;left:0;right:0;padding:24px;background:#102337;align-items:flex-start;flex-direction:column;gap:19px;box-shadow:0 15px 30px #0003}.head-nav.show{display:flex}.nav-toggle{display:block}.hero-grid{grid-template-columns:1fr;gap:38px;padding-top:125px;padding-bottom:60px}.hero{min-height:0}.hero h1{font-size:clamp(43px,8vw,64px)}.hero-intro{font-size:15px}.portrait-area{max-width:420px;margin:auto;width:85%;padding-right:28px}.portrait-wrap{aspect-ratio:4/3.8}.keyline-inner{grid-template-columns:1fr}.keyfact,.keyfact:first-child{padding:15px 2px;border-right:none;border-bottom:1px solid var(--line)}.keyfact:last-child{border:none}.section{padding:70px 0}.section-title,.projects-header{align-items:start;flex-direction:column}.about{grid-template-columns:1fr}.interests{grid-template-columns:repeat(2,1fr)}.journey{grid-template-columns:1fr}.skills{grid-template-columns:1fr 1fr}.contact-inner{align-items:start;flex-direction:column;gap:23px}.metric-inner{grid-template-columns:1fr}.metric,.metric:first-child{padding:25px 0;border-right:none;border-bottom:1px solid #ffffff20}.metric:last-child{border:0}}
     @media(max-width:570px){.container{padding:0 19px}.hero h1{font-size:43px}.hero-tags span{font-size:11px}.portrait-area{width:100%;max-width:350px;padding:5px 25px 26px 0}.portrait-wrap{aspect-ratio:4/4.3}.portrait-caption{font-size:11px}.section-title h2{font-size:31px}.about-main{padding:26px 23px}.about-main p{font-size:14px}.interests,.projects,.skills{grid-template-columns:1fr}.interest{min-height:auto}.work-visual{height:193px}.work-body h3{font-size:19px}.diagram{gap:7px;transform:scale(.82)}.diagram-node{min-width:80px}.journey-panel{padding:27px 25px}.contact{padding:58px 0}.footer-inner{align-items:flex-start;flex-direction:column}.modal-content{padding:32px 22px}.modal-content h2{font-size:25px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-  </style>
+  
+    /* Balanced type scale: clearer headings, readable labels and body copy. */
+    h2{font-size:clamp(28px,3vw,42px)}
+    .hero h1{font-size:clamp(44px,5vw,68px)}
+    .hero-intro{font-size:16px}
+    .eyebrow,.keyfact .micro,.section-label,.work-category,.work-meta,.pill,.journey-item .date,.modal-content .label,.footer-inner{font-size:11px}
+    .small-overline,.diagram-node small{font-size:11px}
+    .interest p,.work-body>p,.journey-item p{font-size:14px}
+    .journey-item h4{font-size:16px}
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
