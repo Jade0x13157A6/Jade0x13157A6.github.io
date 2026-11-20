@@ -1,4 +1,4 @@
-# Ruijue Luo — academic portfolio
+# Ruijue Luo portfolio
 
 A responsive, accessible, dependency-free personal academic website. Four HTML pages, CSS, JavaScript, and a small SVG favicon. No build step, backend, paid service, or external CDN is needed.
 
