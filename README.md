@@ -1,4 +1,4 @@
-# Ruijue Luo — Academic Portfolio (GitHub Pages)
+# Ruijue Portfolio
 
 A single-page academic portfolio for `Jade0x13157A6.github.io`.
 
