@@ -134,7 +134,12 @@
     .section-label-name{font-size:10px;letter-spacing:.15em}
     .section-title h2{font-size:clamp(27px,2.5vw,35px)}
     @media(max-width:780px){.contact-links{width:min(100%,420px);min-width:0;flex-wrap:wrap;justify-content:flex-start}}
-  </style>
+  
+    /* Make section numbers lead while keeping their descriptors quiet. */
+    .section-label{display:inline-flex;align-items:baseline;gap:7px}
+    .section-number{font-size:21px;line-height:1;font-weight:800;letter-spacing:.02em}
+    .section-label-name{font-size:9px;letter-spacing:.13em}
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
