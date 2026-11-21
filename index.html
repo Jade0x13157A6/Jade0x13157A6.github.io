@@ -101,7 +101,15 @@
     @media(max-width:780px){.section{padding:44px 0}.section-title{margin-bottom:19px;gap:12px}.hero{min-height:0}.hero-grid{min-height:0;padding-top:104px;padding-bottom:38px;gap:27px}.hero h1{font-size:clamp(38px,7.5vw,50px)}.portrait-area{width:min(100%,360px);padding:4px 18px 20px 0}.portrait-wrap{aspect-ratio:4/3.8}.interests{gap:12px}.interest{min-height:185px}.journey{gap:15px}.journey-panel{padding:23px 22px}}
     @media(max-width:570px){.section{padding:38px 0}.hero-grid{padding-top:98px;padding-bottom:32px}.hero h1{font-size:38px}.hero-tags{margin-bottom:19px}.interest{min-height:0;padding:20px}.work-visual{height:165px}.contact{padding:40px 0}}
 
-  </style>
+  
+    /* Circular avatar crop inspired by GitHub profile avatars */
+    .portrait-area:before{inset:10px 10px auto auto;width:min(calc(100% - 20px),350px);aspect-ratio:1;border-radius:50%;transform:translate(12px,10px) rotate(7deg)}
+    .portrait-wrap{width:min(100%,350px);aspect-ratio:1/1;border-radius:50%}
+    .portrait-wrap img{object-position:center 22%}
+    @media(max-width:780px){.portrait-area:before{width:min(calc(100% - 18px),320px)}.portrait-wrap{width:min(100%,320px);aspect-ratio:1/1}}
+    @media(max-width:570px){.portrait-area:before{width:min(calc(100% - 30px),300px)}.portrait-wrap{width:min(100%,300px);aspect-ratio:1/1}}
+
+</style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
