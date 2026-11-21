@@ -150,7 +150,26 @@
     .section-sub{font-size:12px !important;line-height:1.7}
     .contact-inner > div:first-child p{font-size:12px;line-height:1.75}
     @media(max-width:570px){.section-number{font-size:29px !important}.section-label-name{font-size:15px !important}}
-    </style>
+    
+
+    /* Stronger contrast and tighter section rhythm */
+    :root{--ink:#281d30;--muted:#51465b;--line:#d8cadd}
+    body{background:#f4eff6;color:#281d30}
+    .section-label{color:#69427f}
+    #research.section,#toolkit.section{background:#e8deed}
+    #projects.section{background:#fcf9fd}
+    #background.section{background:#f1ebf4}
+    #research.section,#projects.section,#background.section{padding:48px 0}
+    #toolkit.section{padding:52px 0 58px}
+    .contact{background:#e8deed;padding:54px 0 60px}
+    .section-title{margin-bottom:30px}
+    .interest{min-height:190px;border-color:#d3c5db;box-shadow:0 10px 28px rgba(45,28,57,.065)}
+    .interest-icon{background:#e4d6eb;color:#704589}
+    .work-card,.skill-group,.about-main,.journey-panel{border-color:#d3c5db;box-shadow:0 10px 28px rgba(45,28,57,.055)}
+    .interest p,.work-card p,.journey-item p,.skill-group p,.section-sub,.about-main p{color:#51465b}
+    .work-category{color:#5c406d}
+    @media(max-width:780px){#research.section,#projects.section,#background.section{padding:42px 0}.contact{padding:46px 0 50px}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
