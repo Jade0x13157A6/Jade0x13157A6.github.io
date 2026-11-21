@@ -109,7 +109,13 @@
     @media(max-width:780px){.portrait-area:before{width:min(calc(100% - 18px),320px)}.portrait-wrap{width:min(100%,320px);aspect-ratio:1/1}}
     @media(max-width:570px){.portrait-area:before{width:min(calc(100% - 30px),300px)}.portrait-wrap{width:min(100%,300px);aspect-ratio:1/1}}
 
-</style>
+
+    .contact-links{display:flex;align-items:center;justify-content:flex-end;gap:10px;flex-wrap:wrap}
+    .social-link{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:0 15px;border:1px solid #d8cedf;border-radius:12px;background:#fff;color:#2c2235;font-size:13px;font-weight:700;box-shadow:0 6px 18px rgba(40,25,55,.08);transition:transform .18s ease,box-shadow .18s ease}
+    .social-link:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(40,25,55,.14)}
+    .social-link svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    @media(max-width:780px){.contact-links{justify-content:flex-start}}
+  </style>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -182,8 +188,8 @@
           <div class="journey-item"><div class="date">FPGA Design · RISC-V SoC</div><h4>FPGA-Based RISC-V SoC Integration</h4><p>Integrated open-source IP cores into a RISC-V SoC on FPGA, building experience in RTL design and hardware integration.</p></div>
         </div>
         <div class="journey-panel"><div class="panel-title"><h3>Education</h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m2 9 10-5 10 5-10 5zM5 11v5c4 3 10 3 14 0v-5M22 9v7"/></svg></div>
-          <div class="journey-item"><div class="date">Master's thesis · 2027</div><h4>ETH Zurich</h4><p>Near-Memory Computing in 3D-Integrated Systems.</p></div>
-          <div class="journey-item"><div class="date">Master's degree</div><h4>Karlsruhe Institute of Technology</h4><p>M.Sc. Electrical Engineering and Information Technology. Specialization: System-on-Chip Design.</p></div>
+          <div class="journey-item"><div class="date">Master's thesis · 2027 · Switzerland</div><h4>ETH Zurich</h4><p>Near-Memory Computing in 3D-Integrated Systems.</p></div>
+          <div class="journey-item"><div class="date">Master's degree · Germany</div><h4>Karlsruhe Institute of Technology</h4><p>M.Sc. Electrical Engineering and Information Technology. Specialization: System-on-Chip Design.</p></div>
         </div>
       </div>
     </div></section>
@@ -193,7 +199,7 @@
       <div class="skills"><div class="skill-group"><h3>Languages & hardware</h3><p>SystemVerilog · Chisel · RISC-V ISA · Python · C</p></div><div class="skill-group"><h3>Simulation & debug</h3><p>Verilator · NEMU Difftest · GTKWave · OpenOCD</p></div><div class="skill-group"><h3>Synthesis & workflow</h3><p>Yosys · RTL verification · Git · Linux · Benchmarking</p></div></div>
     </div></section>
 
-    <section class="contact" id="contact"><div class="container contact-inner"><div><span class="section-label">05 — Get in touch</span><h2>Let's talk about hardware.</h2><p>Interested in RISC-V, processor architecture, digital hardware design, or collaborative research? You can find my public work and reach out via GitHub.</p></div><a class="button blue" href="https://github.com/Jade0x13157A6" target="_blank" rel="noopener noreferrer">Connect on GitHub ↗</a></div></section>
+    <section class="contact" id="contact"><div class="container contact-inner"><div><span class="section-label">05 — Get in touch</span><h2>Let's talk about hardware.</h2><p>Interested in RISC-V, processor architecture, digital hardware design, or collaborative research? Reach me through any of the links here.</p></div><nav class="contact-links" aria-label="Contact links"><a class="social-link" href="https://github.com/Jade0x13157A6" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg><span>GitHub</span></a><a class="social-link" href="mailto:ruijueluo@gmail.com" aria-label="Email via Gmail" title="ruijueluo@gmail.com"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5 12 13l9-6.5M4 5h16a1 1 0 0 1 1 1v12H3V6a1 1 0 0 1 1-1Z"/><path d="M5 7v11m14-11v11"/></svg><span>Gmail</span></a><a class="social-link" href="mailto:ruijueluo@outlook.com" aria-label="Email via Outlook" title="ruijueluo@outlook.com"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/><path d="M7 10v6m10-6v6"/></svg><span>Outlook</span></a></nav></div></section>
   </main>
   <footer class="footer"><div class="container footer-inner"><span>© <span id="year">2026</span> Ruijue Luo · Built for GitHub Pages</span><div><a href="#about">Back to top ↑</a>&nbsp;&nbsp;&nbsp; <a href="https://github.com/Jade0x13157A6" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></footer>
 
